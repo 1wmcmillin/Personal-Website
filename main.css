@@ -3,23 +3,44 @@ header{
     height: 300px;
     background-color: green;
     margin: 0 auto;
+    
 }
 
 
 
 
 
-#div1{
+div1{
     height: 200px;
-    width:
+    width: 300px;
+    background-color: yellow;
+    margin: 0 auto;
 
 
 }
-body{
-
+nav{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: pink;
 }
 
-header{
-
+nav > a{
+    flex: 1;
+    text-align: center;
 }
 
+.textaligngood{
+    text-align: center;
+}
+.fontheader{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+section{
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
